@@ -1,0 +1,44 @@
+.article {
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: border 0.2s;
+    border-radius: 5px;
+    border: 1px solid #fff;
+
+}
+
+.article:hover {
+
+    cursor: pointer;
+    /* background: #f5f5f5; */
+    border: 1px solid #f5f5f5;
+
+}
+
+.article img {
+
+    width: 100%;
+    aspect-ratio: 400 / 240;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+
+.article .title {
+
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.article .subtitle {
+
+    margin: 0px;
+    font-size: 10px;
+    text-align: left;
+
+}

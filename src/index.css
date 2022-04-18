@@ -8,15 +8,15 @@ body, html {
 main {
   display: inline-block;
   box-sizing: border-box;
-  width: calc(100vw - 50px);
-  margin-left: 50px;
+  width: calc(100vw - 240px);
+  margin-left: 240px;
   padding: 25px;
 }
 
 main > .inner {
 
   max-width: 800px;
-  margin: 0px auto;
+  margin: 100px auto;
 
 }
 
