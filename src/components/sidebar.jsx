@@ -14,6 +14,7 @@ export default function Sidebar() {
       <SidebarButton location={location} endpoint="/articles" icon="📓" name="Articles" />
       <SidebarButton location={location} endpoint="/questions" icon="🤔" name="Questions" />
       <SidebarButton location={location} endpoint="/live" icon="📡" name="Live" />
+      <SidebarButton location={location} endpoint="/earning" icon="💸" name="Earnings" />
       <SidebarButton location={location} endpoint="/settings" icon="⚙️" name="Settings" />
     </nav>
   );
